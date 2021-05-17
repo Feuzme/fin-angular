@@ -1,0 +1,9 @@
+<div *ngIf="cat">
+    <h3>{{cat.nom}}</h3>
+    <p>Age : {{cat.age}}</p>
+    <p>Race : {{cat.race}}</p>
+    <p>Est vivant : {{cat.vivant}} </p>
+    <button routerLink = "/cats">Retour</button>
+    <button (click)="delete()">Supprimer</button>
+    <button routerLink = "/cats/{{cat.id}}/update">Mise à jour</button>
+</div>

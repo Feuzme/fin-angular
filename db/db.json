@@ -1,0 +1,18 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "nom": "coucouc",
+      "age": "25",
+      "race": "QSDAZD",
+      "vivant": false
+    },
+    {
+      "nom": "zeze",
+      "age": "45",
+      "race": "didi",
+      "vivant": true,
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<form [formGroup]="catForm" (ngSubmit)="update()">
+    <label>Nom :
+        <input type="text" formControlName="nom">
+    </label>
+    <label>Age : 
+        <input type="text" formControlName="age">
+    </label>
+    <label>Race :
+        <input type="text" formControlName="race">
+    </label>
+    <label>Vivant ?
+        <input type="checkbox" formControlName="vivant">
+    </label>
+    <button type="submit">Enregister</button>
+</form>
